@@ -2,6 +2,7 @@
 
 ```bash
 $ bundle install
-$ bundle exec opal -c src/calc.rb > bundle.js
+$ mkdir dist
+$ bundle exec opal -c src/calc.rb > dist/bundle.js
 $ ruby -run -e httpd .
 ```
